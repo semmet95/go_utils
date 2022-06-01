@@ -1,0 +1,19 @@
+api = "0.7"
+
+[buildpack]
+  id = "gw/test"
+  version = "0.1.0"
+
+[metadata]
+  team-name = "team-test"
+  contact = "team-test@test.com"
+
+  [[metadata.dependencies]]
+    uri = "sample-dependency-uri"
+    version = "v1.2.3"
+
+[[stacks]]
+  id = "io.buildpacks.stacks.bionic"
+
+[[stacks]]
+  id = "io.paketo.stacks.tiny"
