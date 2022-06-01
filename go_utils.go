@@ -22,6 +22,8 @@ type BuildpackToml struct {
 		Dependencies []struct {
 			URI string `toml:"uri"`
 			VERSION string `toml:"version"`
+			LOG4JVERSION string `toml:"log4j-version"`
+			JACKSONJVERSION string `toml:"jackson-version"`
 		} `toml:"dependencies"`
 	} `toml:"metadata"`
 
