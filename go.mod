@@ -1,4 +1,4 @@
-module go-utils
+module github.com/semmet95/go-utils
 
 go 1.17
 
